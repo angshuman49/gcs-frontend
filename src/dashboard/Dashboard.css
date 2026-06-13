@@ -1,0 +1,16 @@
+.tab-selector {
+  padding: 0px;
+  display: flex;
+  gap: 1rem;
+  background-color: #343e3b;
+  color: #b6684f;
+  cursor: pointer;
+}
+
+.tab-header {
+  border: 20px solid transparent;
+}
+
+.tab-header.active {
+  color: #ff926e;
+}

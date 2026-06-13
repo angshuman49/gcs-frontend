@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Terminess Nerd Font Mono';
+  src: url('/fonts/TerminessNerdFontMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+ body {
+   background-color: #4b4138;
+   color: #e9d4a1;
+ }
+
+ button {
+   color: #ff80c0;
+   border-color: #ff80c0;
+   background: #201030;
+   padding: 10px;
+   border: 1px solid;
+   display: inline-block;
+   margin: 5px;
+ }
+
+ input {
+   font-size: 23px;
+   background: #1a0f1e;
+   border: 2px solid #7a5c1e;
+   color: #e8d5a3;
+   padding: 8px 10px;
+   outline: none;
+   width: 100%;
+   box-sizing: border-box;
+ }
+
+ table {
+   border: rgba(0, 0, 0, 0);
+   width: 100%;
+   text-align: center;
+ }
+
+ th {
+   padding: 7px;
+   background: rgba(0, 0, 0, 0.2);
+
+ }
+
+ textarea {
+   font-size: 23px;
+   background: #1a0f1e;
+   border: 5px solid #7a5c1e;
+   color: #e8d5a3;
+   padding: 8px 10px;
+   outline: none;
+   width: 100%;
+   box-sizing: border-box;
+ }
+
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Terminess Nerd Font Mono';
+   letter-spacing: 1.5pt;
+
+ }
+
+ body {
+   height: 100vh;
+   font-size: 152%;
+   font-weight: bolder;
+
+ }

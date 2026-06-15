@@ -1,0 +1,115 @@
+.intro-wrapper {
+  background: #2a1f2e;
+  border: 3px solid #c9a84c;
+  box-shadow: inset 0 0 0 2px #7a5c1e, 8px 8px 0 rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.intro-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro-badge {
+  font-family: 'Terminess Nerd Font Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #ff926e;
+  background: #1a0f1e;
+  display: inline-block;
+  padding: 5px 12px;
+  border: 1px solid #c9a84c;
+  margin-bottom: 20px;
+}
+
+.intro-title {
+  font-size: 42px;
+  font-weight: bolder;
+  color: #e9d4a1;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.intro-highlight {
+  color: #ff926e;
+  border-bottom: 3px solid #ff926e;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.intro-text {
+  font-size: 18px;
+  color: #b3b5bb;
+  max-width: 700px;
+  margin: 0 auto 10px;
+  line-height: 1.6;
+}
+
+.intro-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.intro-btn {
+  font-family: 'Terminess Nerd Font Mono', monospace;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.7);
+  transition: all 0.1s ease;
+}
+
+.intro-btn.primary {
+  background: #334053;
+  color: #ffffff;
+}
+
+.intro-btn.primary:hover {
+  background: #3e4d63;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.7);
+}
+
+.intro-btn.secondary {
+  background: transparent;
+  color: #ff926e;
+  border: 2px solid #ff926e;
+}
+
+.intro-btn.secondary:hover {
+  background: #ff926e20;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.7);
+}
+
+.intro-stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 2px dashed #7a5c1e;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ff926e;
+  font-family: 'Terminess Nerd Font Mono', monospace;
+}
+
+.stat-label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #b3b5bb;
+}

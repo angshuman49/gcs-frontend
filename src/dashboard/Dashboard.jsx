@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './Dashboard.css'
 import {apiGet, apiPost} from '../services/api.js'
+import { useNavigate } from 'react-router-dom';
 
 const Articles = () => {
   const [articles, setArticles] = useState([]);
@@ -9,7 +10,14 @@ const Articles = () => {
   const [editTarget, setEditTarget] = useState(null);
   const [newHeader, setNewHeader] = useState('');
   const [newBody, setNewBody] = useState('');
-  
+  const navigate = useNavigate();
+  useEffect(() => {
+    const checkPriv = async ()=>{
+      const res = await apiGet("/dashboard/check/");
+      if (rest.status !== 200){ navigate("/account/Login"}
+    }
+    checkPriv();
+  },[])
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === 'Escape') {

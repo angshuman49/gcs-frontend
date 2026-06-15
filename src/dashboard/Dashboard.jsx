@@ -14,7 +14,7 @@ const Articles = () => {
   useEffect(() => {
     const checkPriv = async ()=>{
       const res = await apiGet("/dashboard/check/");
-      if (rest.status !== 200){ navigate("/account/Login"}
+      if (rest.status !== 200){ navigate("/account/Login")}
     }
     checkPriv();
   },[])

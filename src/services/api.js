@@ -1,4 +1,4 @@
-const BASE_API_URL = "http://localhost:42049/api";
+const BASE_API_URL = "https://gcs-backend-gnvd.onrender.com/api";
 
 const api = async (endpoint, options = {}) => {
   const token = localStorage.getItem('access_token');
